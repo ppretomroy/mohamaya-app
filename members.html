@@ -3,52 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>মহামায়া</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Responsive Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-    
-        <section class="features">
-            <h2>মেম্বার লিস্ট</h2>
-            <div class="feature-grid">
-
-                <!--Utsho-->
-                <a href="utso-batch.html" style="text-decoration:none; color:black;">
-                <div class="feature-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/10758/10758997.png" alt="ভাষা প্রশিক্ষণ">
+        <header>
+            <img src="https://github.com/pretomroy987/mohamaya-app/blob/main/logo%20(1).png?raw=true" alt="Logo" class="logo">
+            <div class="profile-icon">
+                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/man-avatar-6299539-5187871.png?f=webp" alt="Profile Icon">
+            </div>
+        </header>
+        <main>
+            <div class="features">
+                <div class="feature" onclick="openPage('utso-batch.html')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/members%20(1).svg?alt=media&token=0404e097-69c1-4c00-9ba7-f85c5dc5f169" alt="Registration Icon">
                     <p>উৎসর ব্যাচের সদস্যরা</p>
                 </div>
-                </a>
-
-
-                <!--Utsho-->
-                <a href="monsalisamembers.html" style="text-decoration:none; color:black;">
-                <div class="feature-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/10758/10758997.png" alt="খাত প্রশিক্ষণ">
+                <div class="feature" onclick="openPage('monalisamembers.html')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/members%20(1).svg?alt=media&token=0404e097-69c1-4c00-9ba7-f85c5dc5f169" alt="Prescription Icon">
                     <p>মোনালিসার সদস্যরা</p>
                 </div>
-                </a>
-
-                <!--Area 3-->
-                <a href="dolon-batch.html" style="text-decoration:none; color:black;">
-                <div class="feature-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/10758/10758997.png" alt="সদস্য লিঙ্ক">
+                
+                <div class="feature" onclick="openPage('dolon-batch.html')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/members%20(1).svg?alt=media&token=0404e097-69c1-4c00-9ba7-f85c5dc5f169" alt="Account Icon">
                     <p>দোলনদার ব্যাচ</p>
                 </div>
-                </a>
-
-                <!--Area 3-->
-                <a href="monsalisa-donar.html" style="text-decoration:none; color:black;">
-                <div class="feature-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/10758/10758997.png" alt="সদস্য লিঙ্ক">
-                    <p>মোনালিসা ডোনার লিস্ট</p>
-                </div>
-                </a>
-
             </div>
-        </section>
+        </main>
+
+        <!--
+        <footer>
+            <div class="footer-menu">
+                <div class="menu-item">
+                    <img src="icons/Home (8).svg" alt="Home Icon">
+                    <p>হোম</p>
+                </div>
+                <div class="menu-item">
+                    <img src="icons/Knowladge.svg" alt="Info Icon">
+                    <p>জ্ঞান অর্জন</p>
+                </div>
+                <div class="menu-item">
+                    <img src="icons/Members.svg" alt="Activity Icon">
+                    <p>কমিটি</p>
+                </div>
+                <div class="menu-item">
+                    <img src="icons/Updates.svg" alt="Update Icon">
+                    <p>আপডেট</p>
+                </div>
+                <div class="menu-item">
+                    <img src="icons/Settings (1).svg" alt="Settings Icon">
+                    <p>সেটিংস</p>
+                </div>
+            </div>
+        </footer>
+        -->
     </div>
-    <script src="script.js"></script>
+    <script src="script.js">
+    </script>
 </body>
 </html>
