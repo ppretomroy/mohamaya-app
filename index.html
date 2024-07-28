@@ -3,93 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>মহামায়া</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Responsive Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="path-to-your-logo.png" alt="মহামায়া">
+            <img src="https://github.com/pretomroy987/mohamaya-app/blob/main/logo%20(1).png?raw=true" alt="Logo" class="logo">
+            <div class="profile-icon">
+                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/man-avatar-6299539-5187871.png?f=webp" alt="Profile Icon">
+            </div>
         </header>
-        <section class="features">
-            <h2>ফিচার এবং সার্ভিস</h2>
-            <div class="feature-grid">
-
-              <!--F1-->
-               <a href="deposit.html" style="text-decoration:none; color:black;">
-                <div class="feature-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/925/925748.png" alt="ভাষা প্রশিক্ষণ">
+        <main>
+            <div class="welcome-text">
+                <p>শ্রী গনেশ পূজা - ২০২৪</p>
+                <p style="color:black;">একদন্তং মহাকায়ং লম্বোদর গজাননম। 
+                    <br> বিঘ্নবিনাশকং দেবং হেরম্বং পনমাম্যহম।।</p>
+                <br>
+                <marquee style="background-color: #1567E2; color: white;">সার্ভারে তথ্য রাত 12 টার পর আপডেট হয়ে। কোনো তথ্য মিসিং থাকলে প্রীতম রায় কিংবা দিপ্ত সাহা'র সাথে কথা বলুন। </marquee>
+            </div>
+            <div class="features">
+                <div class="feature" onclick="openPage('entry-deposit.html')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/Deposit%20Icon.svg?alt=media&token=8c850c37-1015-4782-a0cd-40489e5f13d4" alt="Registration Icon">
                     <p>জমা এন্ট্রি</p>
                 </div>
-                </a>
-
-              <!--F2-->
-               <a href="expense.html" style="text-decoration:none; color:black;">
-                <div class="feature-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/4341/4341568.png" alt="খাত প্রশিক্ষণ">
+                <div class="feature" onclick="openPage('entry-expense.html')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/Expense.svg?alt=media&token=0371589b-6b71-4481-ad22-75d28d10e238" alt="Prescription Icon">
                     <p>খরচ এন্ট্রি</p>
                 </div>
-                </a>
-              
-              <!--F3-->
-                 <a href="members.html" style="text-decoration:none; color:black;">
-                <div class="feature-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/10758/10758997.png" alt="সদস্য লিঙ্ক">
-                    <p>সদস্য লিস্ট</p>
+                <div class="feature" onclick="openPage('members.html')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/members%20(1).svg?alt=media&token=0404e097-69c1-4c00-9ba7-f85c5dc5f169" alt="Donation Icon">
+                    <p>সদস্যদের লিস্ট</p>
                 </div>
-                 </a>
-
-              <!--F4-->
-              <a href="budeget.html" style="text-decoration:none; color:black;">
-                <div class="feature-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/10596/10596750.png" alt="বাজেট">
-                    <p>বাজেট</p>
+                
+                <div class="feature" onclick="openPage('budeget.html')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/Budeget.svg?alt=media&token=00e81e51-4355-48e6-96dc-a52d1454e9af" alt="Account Icon">
+                    <p>অনুষ্ঠানের বাজেট</p>
                 </div>
-            </a>
-
-              <!--F5-->
-              <a href="collection.html" style="text-decoration:none; color:black;">
-                <div class="feature-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/14177/14177695.png" alt="কালেকশনের">
-                    <p>কালেকশনের</p>
+                <div class="feature" onclick="openPage('chat.html')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/location.svg?alt=media&token=eda3ff7f-2873-414b-8de8-85c0df3f0020" alt="Chat Icon">
+                    <p>কালেকশন</p>
                 </div>
-                </a>
-
-              <!--F6-->
-              <a href="budget.html" style="text-decoration:none; color:black;">
-                <div class="feature-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/12615/12615500.png" alt="খাতের বিবরণ">
-                    <p>খাতের বিবরণ</p>
-                </div>
-                </a>
-
-              <!--F7-->
-              <a href="members.html" style="text-decoration:none; color:black;">
-              <div class="feature-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/10217/10217199.png" alt="প্রেজারশিপ বাতিল">
-                    <p>জমার পরিমাণ</p>
-                </div>
-              </a>
-
-              <!--F8-->
-              <a href="donarlist.html" style="text-decoration:none; color:black;">
-                <div class="feature-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/16461/16461793.png" alt="অভিযোগ করুন">
+                <div class="feature" onclick="openPage('#')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/Donnar.svg?alt=media&token=85146922-9b75-4068-99e3-c3bc7fbcd908" alt="Info Icon">
                     <p>ডোনারদের লিস্ট</p>
                 </div>
-              </a>
-
-              <!--F9-->
-              <a href="donarlist.html" style="text-decoration:none; color:black;">
-              <div class="feature-item">
-                  <img src="https://cdn-icons-png.flaticon.com/512/16461/16461793.png" alt="অভিযোগ করুন">
-                  <p>অনুষ্ঠান সূচি</p>
-              </div>
-              </a>
-              
+                <div class="feature" onclick="openPage('#')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/Sponsor%20List.svg?alt=media&token=43510b7b-568f-46cc-9f00-f15c8b58145c" alt="Verify Icon">
+                    <p>স্পনসর লিস্ট</p>
+                </div>
+                <div class="feature" onclick="openPage('#')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/Accounts%20(2).svg?alt=media&token=3731239d-3c02-45a0-8795-d4464c86332b" alt="Apply Icon">
+                    <p>জমার পরিমাণ</p>
+                </div>
+                <div class="feature" onclick="openPage('#')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/Expense%20(1).svg?alt=media&token=812460d1-5a96-4e97-af62-a37487505a9d" alt="Apply Icon">
+                    <p>খরচের খাত</p>
+                </div>
             </div>
-        </section>
+        </main>
+
+        <!--
+        <footer>
+            <div class="footer-menu">
+                <div class="menu-item">
+                    <img src="icons/Home (8).svg" alt="Home Icon">
+                    <p>হোম</p>
+                </div>
+                <div class="menu-item">
+                    <img src="icons/Knowladge.svg" alt="Info Icon">
+                    <p>জ্ঞান অর্জন</p>
+                </div>
+                <div class="menu-item">
+                    <img src="icons/Members.svg" alt="Activity Icon">
+                    <p>কমিটি</p>
+                </div>
+                <div class="menu-item">
+                    <img src="icons/Updates.svg" alt="Update Icon">
+                    <p>আপডেট</p>
+                </div>
+                <div class="menu-item">
+                    <img src="icons/Settings (1).svg" alt="Settings Icon">
+                    <p>সেটিংস</p>
+                </div>
+            </div>
+        </footer>
+        -->
     </div>
-    <script src="script.js"></script>
+    <script src="script.js">
+    </script>
 </body>
 </html>
