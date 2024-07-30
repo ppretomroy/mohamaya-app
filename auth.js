@@ -15,6 +15,6 @@ firebase.initializeApp(firebaseConfig);
 firebase.auth().onAuthStateChanged((user) => {
     if (!user) {
         // User is not logged in, redirect to login page
-        window.location.href = "mohamaya-app.html";
+        window.location.href = "mohamaya-app";
     }
 });
