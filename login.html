@@ -82,7 +82,7 @@
             firebase.auth().onAuthStateChanged((user) => {
                 if (user) {
                     // User is signed in, redirect to homepage
-                    window.location.href = "home.html";
+                    window.location.href = "index.html";
                 }
             });
 
@@ -132,7 +132,6 @@
                 <input type="password" id="password" placeholder="*********" required>
                 <button type="submit">Login</button>
             </form>
-            <button id="forgotPassword">Forget Password</button>
         </div>
     </div>
 </body>
